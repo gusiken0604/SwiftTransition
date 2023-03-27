@@ -17,6 +17,8 @@
 		B2282FC429D110E600C03C62 /* SwiftTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2282FC329D110E600C03C62 /* SwiftTransitionTests.swift */; };
 		B2282FCE29D110E600C03C62 /* SwiftTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2282FCD29D110E600C03C62 /* SwiftTransitionUITests.swift */; };
 		B2282FD029D110E600C03C62 /* SwiftTransitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2282FCF29D110E600C03C62 /* SwiftTransitionUITestsLaunchTests.swift */; };
+		B2282FDD29D1214B00C03C62 /* Screen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2282FDC29D1214B00C03C62 /* Screen2.storyboard */; };
+		B2282FDF29D1216B00C03C62 /* Modal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2282FDE29D1216B00C03C62 /* Modal.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		B2282FC929D110E600C03C62 /* SwiftTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2282FCD29D110E600C03C62 /* SwiftTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTransitionUITests.swift; sourceTree = "<group>"; };
 		B2282FCF29D110E600C03C62 /* SwiftTransitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTransitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2282FDC29D1214B00C03C62 /* Screen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Screen2.storyboard; sourceTree = "<group>"; };
+		B2282FDE29D1216B00C03C62 /* Modal.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Modal.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,11 +108,13 @@
 				B2282FA929D110E500C03C62 /* AppDelegate.swift */,
 				B2282FAB29D110E500C03C62 /* SceneDelegate.swift */,
 				B2282FAD29D110E500C03C62 /* ViewController.swift */,
-				B2282FAF29D110E500C03C62 /* Main.storyboard */,
 				B2282FB529D110E600C03C62 /* Assets.xcassets */,
 				B2282FB729D110E600C03C62 /* LaunchScreen.storyboard */,
 				B2282FBA29D110E600C03C62 /* Info.plist */,
 				B2282FB229D110E500C03C62 /* SwiftTransition.xcdatamodeld */,
+				B2282FAF29D110E500C03C62 /* Main.storyboard */,
+				B2282FDC29D1214B00C03C62 /* Screen2.storyboard */,
+				B2282FDE29D1216B00C03C62 /* Modal.storyboard */,
 			);
 			path = SwiftTransition;
 			sourceTree = "<group>";
@@ -237,6 +243,8 @@
 				B2282FB929D110E600C03C62 /* LaunchScreen.storyboard in Resources */,
 				B2282FB629D110E600C03C62 /* Assets.xcassets in Resources */,
 				B2282FB129D110E500C03C62 /* Main.storyboard in Resources */,
+				B2282FDD29D1214B00C03C62 /* Screen2.storyboard in Resources */,
+				B2282FDF29D1216B00C03C62 /* Modal.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
