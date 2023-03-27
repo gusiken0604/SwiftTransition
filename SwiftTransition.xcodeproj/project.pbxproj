@@ -17,6 +17,11 @@
 		B2282FC429D110E600C03C62 /* SwiftTransitionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2282FC329D110E600C03C62 /* SwiftTransitionTests.swift */; };
 		B2282FCE29D110E600C03C62 /* SwiftTransitionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2282FCD29D110E600C03C62 /* SwiftTransitionUITests.swift */; };
 		B2282FD029D110E600C03C62 /* SwiftTransitionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2282FCF29D110E600C03C62 /* SwiftTransitionUITestsLaunchTests.swift */; };
+		B2F9A1C229D1297B004A07FB /* Screen2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F9A1C129D1297B004A07FB /* Screen2.storyboard */; };
+		B2F9A1C629D129B3004A07FB /* Modal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F9A1C529D129B3004A07FB /* Modal.storyboard */; };
+		B2F9A1C829D12A8F004A07FB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9A1C729D12A8F004A07FB /* MainViewController.swift */; };
+		B2F9A1CA29D12AF3004A07FB /* Screen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9A1C929D12AF3004A07FB /* Screen2ViewController.swift */; };
+		B2F9A1CC29D12B10004A07FB /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F9A1CB29D12B10004A07FB /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		B2282FC929D110E600C03C62 /* SwiftTransitionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTransitionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2282FCD29D110E600C03C62 /* SwiftTransitionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTransitionUITests.swift; sourceTree = "<group>"; };
 		B2282FCF29D110E600C03C62 /* SwiftTransitionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTransitionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2F9A1C129D1297B004A07FB /* Screen2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Screen2.storyboard; sourceTree = "<group>"; };
+		B2F9A1C529D129B3004A07FB /* Modal.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Modal.storyboard; sourceTree = "<group>"; };
+		B2F9A1C729D12A8F004A07FB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B2F9A1C929D12AF3004A07FB /* Screen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2ViewController.swift; sourceTree = "<group>"; };
+		B2F9A1CB29D12B10004A07FB /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,9 @@
 		B2282F9D29D110E500C03C62 = {
 			isa = PBXGroup;
 			children = (
+				B2282FE229D126F600C03C62 /* Screen3 */,
+				B2282FE129D126EB00C03C62 /* Screen2 */,
+				B2282FE029D126D200C03C62 /* Main */,
 				B2282FA829D110E500C03C62 /* SwiftTransition */,
 				B2282FC229D110E600C03C62 /* SwiftTransitionTests */,
 				B2282FCC29D110E600C03C62 /* SwiftTransitionUITests */,
@@ -104,7 +117,6 @@
 				B2282FA929D110E500C03C62 /* AppDelegate.swift */,
 				B2282FAB29D110E500C03C62 /* SceneDelegate.swift */,
 				B2282FAD29D110E500C03C62 /* ViewController.swift */,
-				B2282FAF29D110E500C03C62 /* Main.storyboard */,
 				B2282FB529D110E600C03C62 /* Assets.xcassets */,
 				B2282FB729D110E600C03C62 /* LaunchScreen.storyboard */,
 				B2282FBA29D110E600C03C62 /* Info.plist */,
@@ -128,6 +140,33 @@
 				B2282FCF29D110E600C03C62 /* SwiftTransitionUITestsLaunchTests.swift */,
 			);
 			path = SwiftTransitionUITests;
+			sourceTree = "<group>";
+		};
+		B2282FE029D126D200C03C62 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B2282FAF29D110E500C03C62 /* Main.storyboard */,
+				B2F9A1C729D12A8F004A07FB /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B2282FE129D126EB00C03C62 /* Screen2 */ = {
+			isa = PBXGroup;
+			children = (
+				B2F9A1C129D1297B004A07FB /* Screen2.storyboard */,
+				B2F9A1C929D12AF3004A07FB /* Screen2ViewController.swift */,
+			);
+			path = Screen2;
+			sourceTree = "<group>";
+		};
+		B2282FE229D126F600C03C62 /* Screen3 */ = {
+			isa = PBXGroup;
+			children = (
+				B2F9A1C529D129B3004A07FB /* Modal.storyboard */,
+				B2F9A1CB29D12B10004A07FB /* ModalViewController.swift */,
+			);
+			path = Screen3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +276,8 @@
 				B2282FB929D110E600C03C62 /* LaunchScreen.storyboard in Resources */,
 				B2282FB629D110E600C03C62 /* Assets.xcassets in Resources */,
 				B2282FB129D110E500C03C62 /* Main.storyboard in Resources */,
+				B2F9A1C229D1297B004A07FB /* Screen2.storyboard in Resources */,
+				B2F9A1C629D129B3004A07FB /* Modal.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +306,9 @@
 				B2282FAE29D110E500C03C62 /* ViewController.swift in Sources */,
 				B2282FAA29D110E500C03C62 /* AppDelegate.swift in Sources */,
 				B2282FAC29D110E500C03C62 /* SceneDelegate.swift in Sources */,
+				B2F9A1C829D12A8F004A07FB /* MainViewController.swift in Sources */,
+				B2F9A1CA29D12AF3004A07FB /* Screen2ViewController.swift in Sources */,
+				B2F9A1CC29D12B10004A07FB /* ModalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
