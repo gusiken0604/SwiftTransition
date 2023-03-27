@@ -29,7 +29,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="プッシュ遷移"/>
                                 <connections>
-                                    <segue destination="GDN-bJ-zdW" kind="show" id="fgD-vG-U6J"/>
+                                    <segue destination="7Ih-of-pVZ" kind="show" id="pSf-sy-5sj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,73 +49,15 @@
             </objects>
             <point key="canvasLocation" x="828.24427480916029" y="-27.464788732394368"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="8Fj-8z-nxc">
+        <!--Screen2-->
+        <scene sceneID="rTj-j5-8ei">
             <objects>
-                <viewController id="GDN-bJ-zdW" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="eGf-nv-ye0">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="画面2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADY-NP-w9Y">
-                                <rect key="frame" x="157.33333333333334" y="408" width="78.333333333333343" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NpQ-3n-hQS">
-                                <rect key="frame" x="20" y="763" width="353" height="35"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="モーダル遷移"/>
-                                <connections>
-                                    <segue destination="QfW-Um-p85" kind="presentation" id="g0E-Gg-sKf"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Ago-Gi-Vrr"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
-                        <constraints>
-                            <constraint firstItem="Ago-Gi-Vrr" firstAttribute="bottom" secondItem="NpQ-3n-hQS" secondAttribute="bottom" constant="20" id="Ic8-RO-n06"/>
-                            <constraint firstItem="ADY-NP-w9Y" firstAttribute="centerX" secondItem="eGf-nv-ye0" secondAttribute="centerX" id="Q2H-Sp-iMZ"/>
-                            <constraint firstItem="NpQ-3n-hQS" firstAttribute="leading" secondItem="eGf-nv-ye0" secondAttribute="leading" constant="20" id="YkG-Y9-B1c"/>
-                            <constraint firstItem="Ago-Gi-Vrr" firstAttribute="trailing" secondItem="NpQ-3n-hQS" secondAttribute="trailing" constant="20" id="Zcf-9Y-hmx"/>
-                            <constraint firstItem="ADY-NP-w9Y" firstAttribute="centerY" secondItem="eGf-nv-ye0" secondAttribute="centerY" id="h0e-wt-da9"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="dlf-Ip-Chq"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="E8I-Wx-whc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Screen2" id="7Ih-of-pVZ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ZSj-yX-B6E"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="llx-az-n3k" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1630" y="-27"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="0Vd-6A-qZU">
-            <objects>
-                <viewController id="QfW-Um-p85" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="EDu-4L-QGg">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="モーダル" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OA6-F0-dId">
-                                <rect key="frame" x="136" y="373.66666666666669" width="121.33333333333331" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="YCH-E4-pqB"/>
-                        <color key="backgroundColor" systemColor="systemRedColor"/>
-                        <constraints>
-                            <constraint firstItem="OA6-F0-dId" firstAttribute="centerY" secondItem="EDu-4L-QGg" secondAttribute="centerY" id="5nG-Fj-ddA"/>
-                            <constraint firstItem="OA6-F0-dId" firstAttribute="centerX" secondItem="EDu-4L-QGg" secondAttribute="centerX" id="rnw-sz-jm5"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DHh-QT-jfi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2492" y="-27"/>
+            <point key="canvasLocation" x="1764" y="-124"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Zy4-GL-qge">
@@ -137,12 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
